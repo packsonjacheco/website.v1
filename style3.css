@@ -1,0 +1,258 @@
+h1{
+  font-family: fantasy;
+  font-size: 35pt;
+  background-color: #ffb296;
+  color: #a81497;
+  display: inline-block;
+  animation-timing-function: linear;
+  animation-name: crazymargin;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  z-index:1px;
+}
+
+h2{
+  font-family: cursive;
+  font-size: 25pt;
+  animation-timing-function: cubic-bezier();
+  animation-name: tom;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  z-index:1px;
+}
+
+h4{
+  font-family: cursive;
+  font-size: 25pt;
+  animation-timing-function: cubic-bezier();
+  animation-name: tomx;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+h5{
+  animation-timing-function: cubic-bezier();
+  animation-name: list;
+  animation-duration: 15s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  font-size: 30pt;
+}
+
+h3{
+  font-family: cursive;
+  font-size: 25pt;
+  animation-timing-function: cubic-bezier();
+  animation-name: tom;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+ul {
+               font-size: 30px;
+               font-style: bold, italic;
+               font-family: inherit;
+               margin:75px;
+               padding:-125px;
+               text-align: justify;
+               list-style-image:: url('loader.gif');
+
+           }
+           ul  li {
+               padding: 0px 0px;
+           }
+
+ .home {
+             position: fixed;
+             top: 25px;
+             left: 25px;
+             z-index: 10px;
+             padding-bottom: 25px;
+           }
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        width: 220px;
+        height: 55px;
+        position: absolute;
+        top: 550px;
+        left: 900px;
+        opacity: 45%;
+        font-family: fantasy;
+        font-weight: bolder;
+        font-size: 35pt;
+        background-color: #f9ff91;
+        color: #ffbb00;
+}
+
+body {
+  width: 100%;
+  height: 2000px;
+  margin: 0;
+  padding: 0;
+  cursor: url('jackson.gif'), default;
+}
+
+.border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 12px dashed #e54796;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+html {
+    background: url(mosaic3.jpg);
+    background-size: cover;
+    opacity: 30%
+  }
+
+@keyframes crazymargin {
+  from{
+    margin-left: 0px;
+  }
+
+20% {
+  opacity: 50;
+}
+
+50%{
+  transform: rotate(-5deg);
+  background-color: #f6adff;
+}
+}
+
+@keyframes paragraph {
+  from{
+    margin-left: 0px;
+  }
+
+50%{
+  transform: rotate(2deg);;
+}
+}
+
+@keyframes tom {
+  to{
+    margin-right: 5px
+  }
+
+  from{
+    margin-left: 5px;
+  }
+
+20% {
+  opacity: 25;
+}
+
+50%{
+  transform: rotate(2deg);
+}
+}
+
+@keyframes tomx {
+  to{
+    margin-right: 5px
+  }
+
+  from{
+    margin-left: 5px;
+  }
+
+20% {
+  opacity: 25;
+}
+
+50%{
+  transform: rotate(-2deg);
+}
+}
+
+@keyframes list {
+50%{
+  transform: rotate(1deg);
+}
+}
+
+@keyframes toms {
+  to{
+    margin-right: 52px
+  }
+
+  from{
+    margin-left: 52px;
+  }
+
+20% {
+  opacity: 50;
+}
+
+50%{
+  transform: rotate(5deg);
+}
+}
+
+
+
+#man {
+  position: absolute;
+  top:400px;
+  left:800px;
+  animation-name: man;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes man {
+  to{
+    right:400px;
+    top:500px;
+    opacity:0;
+  }
+}
+
+.shake {
+	display:inline-block
+  display: block;
+height: 250px;
+width: 250px;
+border-radius: 50% 50% 50% 50%;
+}
+.shake {
+	display:block;
+	position:relative;
+}
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(0px, 0px) rotate(0deg); }
+	10% { -webkit-transform: translate(10px, 10px) rotate(36deg); }
+	20% { -webkit-transform: translate(20px, 20px) rotate(72deg); }
+	30% { -webkit-transform: translate(30px, 30px) rotate(108deg); }
+	40% { -webkit-transform: translate(40px, 40px) rotate(144deg); }
+	50% { -webkit-transform: translate(50px, 50px) rotate(180deg); }
+	60% { -webkit-transform: translate(40px, 40px) rotate(216deg); }
+	70% { -webkit-transform: translate(30px, 30px) rotate(252deg); }
+	80% { -webkit-transform: translate(20px, 20px) rotate(288deg); }
+	90% { -webkit-transform: translate(10px, 10px) rotate(324deg); }
+	100% { -webkit-transform: translate(0px, 0px) rotate(360deg); }
+}
+.shake:hover,
+.shake:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: .75s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}

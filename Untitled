@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<br>
+<br>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jackworld.biz</title>
+      <link rel="stylesheet" href="style2.css">
+  </head>
+
+
+  <body>
+    <div class="border"></div>
+    <center><h1>Welcome to Jackson Pacheco Internet Hub!</h1></center>
+    <center><h3>The #1 Web-Source for all things Jackson P.!</h3></center>
+    <center><h2><img src="jackson1.png" width="300px"></h2></center>
+    <div class = "overlap"><img src="laurels.png" width="700px" height="300px"></div>
+
+<br>
+<br>
+
+    <center><h4>Links:</h4></center>
+    <center><p>* <a href="art.html">Art</a> * Projects * Downloadables *</p></center>
+
+<br>
+
+<center><h4>About Jackson</h4></center>
+<center><h4>~~~~~ résumé & complete stats ~~~~~</h4></center>
+
+<center><ul>
+  <h5>  •  6' 2"</h5>
+  <h5>  •  165-170 lbs<h5>
+  <h5>  •  <a href="mailto:jackson@drawingsofstuff.com?subject=Bench Press / Nootropics">e-mail</a> for information about:</h5>
+  <h5>  <ol>- amt. able to bench press</ol></h5>
+  <h5>  <ol>- my nootropics stack</ol></h5>
+  <h5>  <ol>- movie trivia</ol></h5>
+  <h5>  •  backflip </h5>
+  <h5>  •  very well with making english happen to paper or key board</h5>
+  <h5>  •  youtube certified </h5>
+  <h5>  •  html and css </h5>
+  <h5>  •  video editing, adobe creative suite, final cut, logic, open broadcasts systems </h5>
+  <h5>  •  quickscoping</h5>
+  <h5>  •  drawing pictures (graphix design)</h5>
+  <h5>  •  serious handshake + eye contact</h5>
+  <h5>  <ol>  - + knowledge of when to just play it cool</ol> </h5>
+  <li></li>
+</ul></center>
+
+<div class="navbar">
+  <a href="http://hirealawyer.findlaw.com/do-you-need-a-lawyer/before-you-sue-10-things-to-think-about.html"> ©2017 Jackson Pacheco - All rights and lefts reserved.</a>
+  <a href="">                           </a>
+  <a href="https://www.youtube.com/channel/UC484iR-kmB6mDARSR7ySXoA/videos"><img src="youtube.gif" width="50px"></a>
+  <a href="https://twitter.com/packsonjacheco"><img src="twitter.gif" width="50px"></a>
+  <a href="https://www.instagram.com/pacsunjacheco/"><img src="instagram.gif" width="50px"></a>
+</div>
+
+
+</body>
+
+
+
+
+
+
+
+  </body>
+</html>
